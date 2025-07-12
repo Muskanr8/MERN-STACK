@@ -1,0 +1,12 @@
+@import url("./header.css");
+@import url("./main.css");
+* {
+  font-family: "Playfair Display";
+  margin: 20px;
+}
+footer {
+  background-color: #fdd8dc;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+@import url('./header.css');
+* {
+  font-family: "Playfair Display";
+  margin: 20px;
+}
+
+main{
+    background-color: #fdd8dc;
+}
+main img{
+    height: 550px;
+}
+form{
+      background-color: #fcb8c0;
+      padding: 24px;
+      line-height: 2;
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(236, 28, 132);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+}
+td{
+  text-align: left;
+  vertical-align: top;
+  padding: 20px;
+}
+footer {
+  background-color: #fdd8dc;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

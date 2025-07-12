@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="/CSS/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="/images/logo.jpg"
+          alt="logo"
+          width="80"
+          height="80"
+          id="logo"
+        />
+        <h1>Cozy Café</h1>
+      </div>
+
+      <a href="/HTML/index.html">HOME</a>
+      <a href="/HTML/contact.html">CONTACT US</a>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <td>
+            <img src="/images/contact.png" alt="cafe" />
+          </td>
+          <td>
+            <h2>Contact Us</h2>
+            <form action="#" method="post" id="contact">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required /><br />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required /> <br />
+
+              <label for="message">Message</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="35"
+                required
+              ></textarea>
+              <center>
+                <button type="submit" value="send message">SEND</button>
+              </center>
+            </form>
+          </td>
+          <td>
+            <h2>Place Your Order</h2>
+            <form action="#" method="post" id="order">
+              <label for="customer">Name</label>
+              <input type="text" id="customer" name="customer" required /><br>
+
+              <label for="drink">Choose your drink</label>
+              <select id="drink" name="drink">
+                <option value="espresso">Espresso</option>
+                <option value="latte">Latte</option>
+                <option value="coldcoffee">Cold Coffee</option>
+                <option value="mocha">Mocha</option>
+              </select><br>
+
+              <label for="quantity">Quantity</label>
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="10"
+              /> <br>
+
+              <label for="instructions">Instructions</label><br>
+              <textarea
+                id="instructions"
+                name="instructions"
+                rows="2"
+                cols="35"
+              ></textarea>
+
+              <center>
+              <button type="submit" value="order">SUBMIT</button>
+              </center>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <center><p>Good vibes. Great coffee. Best moments.</p></center>
+    </footer>
+  </body>
+</html>

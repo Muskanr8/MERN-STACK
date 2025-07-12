@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fdd8dc;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+h1 {
+  padding: 22px;
+  text-align: center;
+}
+div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#logo {
+  margin-top: 0;
+  margin-right: 15px;
+  border: 1px solid;
+}
+a {
+  color: rgb(236, 28, 132);
+  text-decoration: none;
+}
